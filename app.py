@@ -39,16 +39,6 @@ class MessageParser:
         return reminder_time, reminder_message
 
 
-class SkypeBot:
-    def __init__(self, token):
-        # self.client = skype.Skype(token)
-        pass
-
-    def send_message(self, user_id, message):
-        # Отправка сообщения через Skype API
-        pass
-
-
 class ReminderManager:
     def __init__(self, db):
         self.db = db
